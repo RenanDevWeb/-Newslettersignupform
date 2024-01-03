@@ -15,18 +15,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 30px;
     
 }
 .box1{
-    background-color: yellow;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     width: 50%;
-    height: 50vh;
-    margin: 30px 14px;
+    height: 65vh;
+    margin: 20px 14px;
     padding: 40px;
 
 }
@@ -111,6 +110,17 @@ body{
 }
 
 
+.form a{
+    width: 100%;
+    color: #fff;
+    background-color: hsl(235, 18%, 26%);
+    text-align: center;
+    border-radius: 8px;
+    padding: 8px;
+    text-decoration: none;
+}
+
 .box2 img{
-   padding: 8px;
+   
+   padding: 16px 2px;
 }
