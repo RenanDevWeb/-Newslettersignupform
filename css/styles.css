@@ -119,6 +119,10 @@ body{
     padding: 8px;
     text-decoration: none;
 }
+.form a:hover{
+    background: rgb(248,81,119);
+background: linear-gradient(60deg, rgba(248,81,119,1) 0%, rgba(255,98,87,1) 42%);
+}
 
 .box2 img{
    
