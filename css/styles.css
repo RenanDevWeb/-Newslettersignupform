@@ -16,6 +16,7 @@ body{
     margin-top: 80px;
     background-color: hsl(0, 0%, 100%);
     display: flex;
+    
     justify-content: center;
     align-items: center;
     border-radius: 30px;
@@ -34,7 +35,7 @@ body{
 }
 .box1 h1{
     color:  hsl(235, 18%, 26%);
-    font-size: 72px;
+    font-size: 42px;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -103,8 +104,8 @@ body{
     height: 50px;
     padding: 10px;
     border: 1px solid hsl(231, 7%, 60%);
-     outline: none;
-     border-radius: 5px;
+    outline: none;
+    border-radius: 5px;
 }
 
 .form input::placeholder {
@@ -113,7 +114,7 @@ body{
 }
 
 
-.form a{
+.form button{
     width: 100%;
     color: #fff;
     background-color: hsl(235, 18%, 26%);
@@ -131,4 +132,46 @@ background: linear-gradient(60deg, rgba(248,81,119,1) 0%, rgba(255,98,87,1) 42%)
 .box2 img{
    
    padding: 16px 2px;
+}
+@media screen and (max-width: 767px) {
+
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100vw;
+        width: 100vh;
+    }
+
+    .box1{
+        width: 100%;
+    }
+    .box1 h1{
+        color:  hsl(235, 18%, 26%);
+        font-size: 38px;
+        text-align: center;
+        
+    }
+    
+    
+    .box1 p{
+        color: hsl(231, 7%, 60%);
+        font-size: 18px;
+        word-wrap: break-word;
+    }
+    .box1 .list ul{
+        font-size: 16px; 
+    }
+    
+    .box2{
+        width: 100%;
+    }
+   .box2 img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+   }
+    
 }
