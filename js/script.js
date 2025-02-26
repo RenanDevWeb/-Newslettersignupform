@@ -3,7 +3,7 @@ document.querySelector(".form").addEventListener('submit',function(e){
     var email = document.querySelector("#email").value
     
     if(validateEmail(email)){
-        window.location.href = "../thanks.html";
+        window.location.href = "https://renandevweb.github.io/thanks.html";
         localStorage.setItem("email",email)
     }
     
